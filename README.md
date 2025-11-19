@@ -63,3 +63,8 @@ For each feature set, we:
    - Fuzzy Partition Coefficient (FPC) (FCM)
    - Log-likelihood (HMM, GMM)
 5. Visualize the inferred regimes over price and feature trajectories.
+
+## Authors
+-Blake Krouth
+-Nandhika Rajmanikandan
+-Ganesh Vannam 

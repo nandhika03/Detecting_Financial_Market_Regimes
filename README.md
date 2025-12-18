@@ -5,13 +5,23 @@ This project investigates the use of unsupervised learning methods to detect fin
 The work compares multiple clustering techniques across different feature sets to evaluate their suitability for historical market analysis and as inputs to downstream financial models.
 
 ### Key Results
-![img](https://github.com/nandhika03/Detecting_Financial_Market_Regimes/blob/main/Reports/HMMRegimesover6month.png)
-- Hidden Markov Models produced the most interpretable regimes when applied to simple, smoothed feature sets, exhibiting temporal persistence and coherent transitions. 
+
+#### HMM-Based Market Regimes
+![HMM regimes over 6-month smoothed cumulative returns](https://github.com/nandhika03/Detecting_Financial_Market_Regimes/blob/main/Reports/HMMRegimesover6month.png)
+
+- Hidden Markov Models produced the most interpretable regimes when applied to simple, smoothed feature sets, exhibiting temporal persistence and coherent transitions.
+- These regimes were visually stable over time and aligned well with long-term market behavior.
+
+---
+
+#### Model Comparison Across Feature Sets
+![Comparison of regime assignments across clustering models](https://github.com/nandhika03/Detecting_Financial_Market_Regimes/blob/main/Reports/Comparison%20of%20Regime%20Assignments%20Across%20Clustering%20Models%20(K-Means%2C%20FCM%2C%20HMM).png)
+
 - K-Means and Fuzzy C-Means performed better on multivariate feature sets, producing simpler and more visually interpretable clusters, though sometimes at the cost of oversimplification.
 - Gaussian Mixture Models consistently produced low-confidence and visually ambiguous regime assignments.
-- Objective clustering metrics did not always align with human interpretability,highlighting a trade-off between quantitative evaluation and practical usefulness.
-![img](https://github.com/nandhika03/Detecting_Financial_Market_Regimes/blob/main/Reports/Comparison%20of%20Regime%20Assignments%20Across%20Clustering%20Models%20(K-Means%2C%20FCM%2C%20HMM).png)
----
+- Objective clustering metrics did not always align with human interpretability, highlighting a trade-off between quantitative evaluation and practical usefulness.
+
+
 
 
 - The[ code directory ](https://github.com/nandhika03/Detecting_Financial_Market_Regimes/tree/main/Code)contains all experiments implemented in Python using Google Colab.

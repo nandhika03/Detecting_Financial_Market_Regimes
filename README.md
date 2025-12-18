@@ -9,7 +9,7 @@ The work compares multiple clustering techniques across different feature sets t
 - Hidden Markov Models produced the most interpretable regimes when applied to simple, smoothed feature sets, exhibiting temporal persistence and coherent transitions. 
 - K-Means and Fuzzy C-Means performed better on multivariate feature sets, producing simpler and more visually interpretable clusters, though sometimes at the cost of oversimplification.
 - Gaussian Mixture Models consistently produced low-confidence and visually ambiguous regime assignments.
-- Objective clustering metrics did not always align with human interpretability, highlighting a trade-off between quantitative evaluation and practical usefulness.
+- Objective clustering metrics did not always align with human interpretability,highlighting a trade-off between quantitative evaluation and practical usefulness.
 ![img](https://github.com/nandhika03/Detecting_Financial_Market_Regimes/blob/main/Reports/Comparison%20of%20Regime%20Assignments%20Across%20Clustering%20Models%20(K-Means%2C%20FCM%2C%20HMM).png)
 ---
 
